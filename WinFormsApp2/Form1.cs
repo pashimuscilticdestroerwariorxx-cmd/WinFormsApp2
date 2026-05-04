@@ -1,3 +1,4 @@
+using AutoUpdaterDotNET;
 using CheckValidators;
 using CoreResourceManager;
 using SingleFileExtractor.Core;
@@ -19,11 +20,17 @@ namespace WinFormsApp2
             //                .ReturnErrors();
 
             var qq = new Check<int>(50)
-                    .If(s => s <= 0 , "Текущее значение меньше нуля")
+                    .If(s => s <= 0, "Текущее значение меньше нуля")
                     .If(s => s > 99, "Текущее значение больше 99")
                     .ReturnErrors();
 
             qq = qq;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            AutoUpdater.Start("https://github.com/pashimuscilticdestroerwariorxx-cmd/WinFormsApp2/master/update.xml");
+            AutoUpdater.ReportErrors = true;
         }
     }
 }

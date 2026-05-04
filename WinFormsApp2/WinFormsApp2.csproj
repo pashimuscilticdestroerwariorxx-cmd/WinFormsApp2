@@ -13,10 +13,12 @@
 	</ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autoupdater.NET.Official" Version="1.9.2" />
     <PackageReference Include="CheckValidators" Version="1.1.35" />
     <PackageReference Include="CoreResourceManager" Version="0.0.3" />
     <PackageReference Include="CuoreUI.Winforms" Version="2026.1.16" />
     <PackageReference Include="SingleFileExtractor.Core" Version="2.3.0" />
+    <PackageReference Include="Updatum" Version="1.3.7" />
   </ItemGroup>
 
 </Project>
