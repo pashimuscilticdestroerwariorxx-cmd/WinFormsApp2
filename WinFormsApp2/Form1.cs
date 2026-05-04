@@ -29,7 +29,7 @@ namespace WinFormsApp2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            AutoUpdater.Start("https://github.com/pashimuscilticdestroerwariorxx-cmd/WinFormsApp2/master/update.xml");
+            AutoUpdater.Start("https://github.com/pashimuscilticdestroerwariorxx-cmd/WinFormsApp2/tree/master/update.xml");
             AutoUpdater.ReportErrors = true;
         }
     }

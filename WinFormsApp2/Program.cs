@@ -4,11 +4,11 @@ namespace WinFormsApp2
 {
     internal static class Program
     {
-        internal static readonly UpdatumManager AppUpdater = new("WinFormsApp2", "pashimuscilticdestroerwariorxx")
-        {
-            // Можно указать аргументы для тихой установки, например, для MSI
-            InstallUpdateWindowsInstallerArguments = "/qb"
-        };
+        //internal static readonly UpdatumManager AppUpdater = new("pashimuscilticdestroerwariorxx", "WinFormsApp2")
+        //{
+        //    // Можно указать аргументы для тихой установки, например, для MSI
+        //    InstallUpdateWindowsInstallerArguments = "/qb"
+        //};
 
 
         /// <summary>
