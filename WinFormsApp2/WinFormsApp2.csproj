@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Resources/**" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CheckValidators" Version="1.1.35" />
+    <PackageReference Include="CoreResourceManager" Version="0.0.3" />
+    <PackageReference Include="CuoreUI.Winforms" Version="2026.1.16" />
+    <PackageReference Include="SingleFileExtractor.Core" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>
