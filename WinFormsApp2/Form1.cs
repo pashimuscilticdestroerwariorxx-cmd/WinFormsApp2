@@ -24,6 +24,7 @@ namespace WinFormsApp2
                     .If(s => s > 99, "Текущее значение больше 99")
                     .ReturnErrors();
 
+
             qq = qq;
         }
 
