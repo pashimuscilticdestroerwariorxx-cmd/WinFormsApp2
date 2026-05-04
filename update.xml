@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-    <version>2.0.0.0</version>
+    <!-- 
+        ВАЖНО: Замените "1.0.0.0" на актуальную версию вашего нового релиза.
+        Формат: X.X.X.X
+    -->
+    <version>1.0.0.0</version>
+    
+    <!-- Прямая ссылка на скачивание .exe-файла из вашего релиза -->
     <url>https://github.com/pashimuscilticdestroerwariorxx-cmd/WinFormsApp2/releases/download/qq/WinFormsApp2.exe</url>
+
+    <!-- Ссылка на страницу с историей изменений (список релизов) -->
     <changelog>https://github.com/pashimuscilticdestroerwariorxx-cmd/WinFormsApp2/releases</changelog>
+    
+    <!-- 
+        false: Обновление необязательное, пользователь может его пропустить.
+        true:  Обновление обязательное, кнопки "Пропустить" не будет. 
+    -->
     <mandatory>false</mandatory>
 </item>
